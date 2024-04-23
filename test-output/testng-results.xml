@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-28T20:07:54 IST" name="Default suite" finished-at="2022-06-28T20:08:02 IST" duration-ms="8811">
+  <suite name="Default suite" duration-ms="11432" started-at="2022-11-28T23:02:17 IST" finished-at="2022-11-28T23:02:29 IST">
     <groups>
     </groups>
-    <test started-at="2022-06-28T20:07:54 IST" name="Default test" finished-at="2022-06-28T20:08:02 IST" duration-ms="8811">
-      <class name="TestClasses.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClasses.Login@101952da]" started-at="2022-06-28T20:07:54 IST" name="setup" finished-at="2022-06-28T20:07:59 IST" duration-ms="5669" status="PASS">
+    <test name="Default test" duration-ms="11432" started-at="2022-11-28T23:02:17 IST" finished-at="2022-11-28T23:02:29 IST">
+      <class name="SelPackage.Selenium1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SelPackage.Selenium1@1cea91b]" name="setup" is-config="true" duration-ms="8419" started-at="2022-11-28T23:02:17 IST" finished-at="2022-11-28T23:02:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Home_Page_Appear_Correct()[pri:0, instance:TestClasses.Login@101952da]" started-at="2022-06-28T20:07:59 IST" name="test_Home_Page_Appear_Correct" finished-at="2022-06-28T20:08:02 IST" duration-ms="3090" status="PASS">
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:SelPackage.Selenium1@1cea91b]" name="test_Home_Page_Appear_Correct" duration-ms="2985" started-at="2022-11-28T23:02:26 IST" finished-at="2022-11-28T23:02:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Home_Page_Appear_Correct -->
-      </class> <!-- TestClasses.Login -->
+      </class> <!-- SelPackage.Selenium1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
